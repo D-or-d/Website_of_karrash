@@ -8,8 +8,8 @@
   },
   "scripts": {
     "dev": "concurrently npm:watch:css npm:watch:serve",
-    "watch:css": "npx tailwindcss -i ./src/styles.css -o ./dist/styles.css --watch",
-    "watch:serve": "http-server ./dist/"
+    "watch:css": "npx tailwindcss -i ./src/styles.css -o ./docs/styles.css --watch",
+    "watch:serve": "http-server ./docs/"
   },
   "dependencies": {
     "@tailwindcss/typography": "^0.5.7",
